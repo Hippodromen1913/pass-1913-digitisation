@@ -98,7 +98,8 @@
          <profileDesc>
   <text>
       <body>
-         <p>Some text here.</p>
+        <pb facs="../img/omslag-framsida.gif"/>
+		  <p>Some text here.</p>
       </body>
   </text>
 </TEI>
