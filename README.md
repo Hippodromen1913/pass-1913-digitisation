@@ -46,4 +46,4 @@ Spring 2026
 ## Notes
 The material is primarily textual, which has influenced the focus on transcription and encoding, but it also includes some images that require separate handling and metadata. OCR provided a useful starting point for transcription, but still required manual corrections. These challenges are discussed further in the report.
 
-The original image files were scanned in high-resolution TIFF format. Due to file size limitations on GitHub, these have been converted to smaller formats (e.g. JPEG) for inclusion in the repository. This involves a trade-off between image quality and accessibility. The original high-resolution files are stored separately.
+The original image files were scanned in high-resolution TIFF format. Due to file size limitations on GitHub, these have been converted to smaller formats for inclusion in the repository. This involves a trade-off between image quality and accessibility. The original high-resolution files are stored separately.
