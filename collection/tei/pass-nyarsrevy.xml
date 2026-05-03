@@ -67,7 +67,7 @@
         </listChange>
      </revisionDesc>
   </teiHeader>
-   <TEI xml:id="Omslag framsida">
+   <TEI xml:id="Omslag-framsida">
       <teiHeader>
          <!-- header for front page -->
          <fileDesc>
