@@ -5,7 +5,7 @@ This project is part of the course *Digitising Cultural Heritage Material* at th
 ## Project Description
 The aim of this project is to digitise a printed booklet from the New Year revue *"Pass"*, performed at Hippodromen in Malmö in 1913. The booklet mainly consists of songs and dialogue, along with a limited number of images.
 
-The material was digitised from a physical copy held at Malmö City Library. The goal is to make the booklet available in a structured digital format and to add some contextual information about the revue and its historical setting.
+The material was digitised from a physical copy held at Malmö City Library. The goal is to make the booklet available in a structured digital format and to add contextual information about the revue and its historical setting.
 
 ## Objectives
 - Digitise the complete booklet through scanning  
@@ -46,4 +46,4 @@ Spring 2026
 ## Notes
 The material is primarily textual, which has influenced the focus on transcription and encoding, but it also includes some images that require separate handling and metadata. OCR provided a useful starting point for transcription, but still required manual corrections. These challenges are discussed further in the report.
 
-The original image files were scanned in high-resolution TIFF format. Due to file size limitations on GitHub, these have been converted to smaller formats for inclusion in the repository. This involves a trade-off between image quality and accessibility. The original high-resolution files are stored separately.
+The original image files were scanned in TIFF format. Due to file size limitations on GitHub, these have been converted to smaller formats for inclusion in the repository. This involves a trade-off between image quality and accessibility. The original high-resolution files are stored separately.
