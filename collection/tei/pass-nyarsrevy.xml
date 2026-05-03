@@ -40,7 +40,18 @@
       </bibl>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
+    <profileDesc>
+  <langUsage>
+    <language ident="sv">Swedish</language>
+  </langUsage>
+  <textClass>
+    <keywords>
+      <term>printed booklet</term>
+    </keywords>
+  </textClass>
+</profileDesc>
+	  
+	  <encodingDesc>
         <projectDesc> <p>The digitisation project is a part of the Digitising Cultural Heritage Materials course,
            from the master’s program in Library and Information Science at the University of Borås </p>
         </projectDesc>
