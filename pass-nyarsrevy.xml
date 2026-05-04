@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hippodromens nyårsrevy 1913</title>
+            <meeting>Final project for Digitising Cultural Heritage Material</meeting>
+         <respStmt>     
+            <resp>Digitisation, markup and digital publication</resp>
+            <name xml:id="CH"> Cathrine Hellberg</name>
+         <name xml:id="CN">Carolina Nilsson</name>
+         <name xml:id="MW"> Maia Wallner</name>
+         <orgName> University of Borås</orgName>
+         </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Cathrine Hellberg</authority>
+            <authority>Carolina Nilsson</authority>
+            <authority>Maia Wallner</authority>
+            <distributor> University of Borås</distributor>
+            <address>
+            <addrLine>Allégatan 1</addrLine>
+            <addrLine>503 32 Borås</addrLine>
+            <addrLine>Sweden</addrLine>
+            </address>
+            <availability>
+               <licence></licence> <!-- fyll i senare -->
+ 
+            </availability>
+            <date when="2026-06-05">, June 5th 2026</date>
+         </publicationStmt>
+         <notesStmt>
+            <note> <date>"2016"</date> examination for the Digitizing Cultural Heritage Material course</note>
+         </notesStmt>
+         <sourceDesc>
+      <bibl>A booklet with a selection of songs from Hippodromen's New Years revue 1913 
+      </bibl>
+         </sourceDesc>
+      </fileDesc>
+    <profileDesc>
+  <langUsage>
+    <language ident="sv">Swedish</language>
+  </langUsage>
+  <textClass>
+    <keywords>
+      <term>printed booklet</term>
+    </keywords>
+  </textClass>
+</profileDesc>
+	  
+	  <encodingDesc>
+        <projectDesc> <p>The digitisation project is a part of the Digitising Cultural Heritage Materials course,
+           from the master’s program in Library and Information Science at the University of Borås </p>
+        </projectDesc>
+        <editorialDecl>
+           <p>The text content of the booklet was transkibed to the best of our ability, 
+              although some alternations has been made due to symbols difficult to translate to digital representation, 
+              because the original is hand printed and additons has been made in forms of coloring, drawings etc.</p> <!-- redigera -->
+        </editorialDecl>
+     </encodingDesc>
+     <revisionDesc>
+        <listChange>
+           <change when= "2026-04-27"> <persName>Cathrine Hellberg</persName> created the encoding</change>
+        </listChange>
+     </revisionDesc>
+  </teiHeader>
+   <TEI xml:id="Omslag-framsida">
+      <teiHeader>
+         <!-- header for front page -->
+         <fileDesc>
+            <titleStmt>
+               <title>Omslag framsida</title>
+            </titleStmt>
+            <publicationStmt>
+               <authority> Cathrine Hellberg</authority>
+               <authority> Carolina Nilsson</authority>
+               <authority> Maia Wallner</authority>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <msName>Omslag framsida</msName>
+                  </msIdentifier> 
+                  <msContents>
+                     <summary>The front page of the booklet
+                        <lb/> State the title of the revue and an advertisment for the sponsor Solo Kaffe.
+                        <lb/> A handwritten note from the library staff "småtryck"
+                        <lb/>The booklet is part of a colletion of small prints at the City Library in Malmö.</summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <extent>
+                              Postcard 1:2 sides <!-- mått på häftet -->
+                              <dimensions unit="cm">
+                                 <height>13.5</height>
+                                 <width>8.5</width>
+                              </dimensions>
+                           </extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msDesc>
+            </sourceDesc>
+         </fileDesc>
+         <profileDesc>
+			 </profileDesc>
+  <text>
+      <body>
+        <pb facs="../img/omslag-framsida.gif"/>
+		  <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
