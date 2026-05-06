@@ -186,7 +186,7 @@
          </note>
             </div>
          
-        <!-- Uppslag 1 -->
+        <!-- Uppslag 1, sida 1-->
          <div type="page" facs="#Uppslag1"> </div>
             <div type="advertisment">
             <pb n="1"/>
@@ -206,13 +206,50 @@
                     <l> KORSETTER LINNE </l>
                      <l>BLUSAR. </l>
                   </lg>
+               <p> FÖRSTKLASSIG SYATELIER<lb/>
+                  HERREKIPERING m. m. 
+               </p>
+               <!-- Uppslag 1 sida 2 innehåller bilder, kolla hur man gör detta bäst-->
+               <div type="page" facs="#Uppslag1"> </div>
+               <pb n="2"/>
                
-               
-            
-            
             
 </div>
+         <!-- uppslag 2, sida 1 -->
+         <div type="page" facs="Sida3_4"> </div>
+         <div type="advertisment">
+            <pb n="2"/>
+            <head>TORR WOLKES TORR</head>
+            <l>Paris 1900. Helsingborg 1903.  Trade W Mark  Helsingborg 1903. London 1901.</l>
+              <l> ÄKTA
+               <lb/>Caloric Punsch 
+                 <lb/>Gustav Wolke      Malmö</l>
+              <note type="unclear">
+                 <p> Oklar text…</p></note> 
+         </div>
+         <div type="advertisment">
+            <head>Photographie Rembrandt </head>
+            <l>S. Förstadsgatan 25. Rikstel. 1188.</l>
+            <l>Eleganta fotografier o. förstoringar
+               <lb/>i alla prislägen</l>
+         </div>
+         <div type="advertisment">
+            <head>Malmö Klädesmagasin</head>
+            <l>(Förest. OTTO MODÉER)</l>
+            <lg><l>Svenska och Engelska 
+               <lb/>KLÄDESVAROR
+                  <lb/>13, Södergatan 13.</l>
+            </lg>
+         
+            
+            
+            
+            
+            
+            
+         </div>
       </body>
   </text>
    
 </TEI>
+
