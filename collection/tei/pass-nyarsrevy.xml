@@ -6,112 +6,249 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hippodromens nyårsrevy 1913</title>
-            <meeting>Final project for Digitising Cultural Heritage Material</meeting>
-         <respStmt>     
-            <resp>Digitisation, markup and digital publication</resp>
-            <name xml:id="CH"> Cathrine Hellberg</name>
-         <name xml:id="CN">Carolina Nilsson</name>
-         <name xml:id="MW"> Maia Wallner</name>
-         <orgName> University of Borås</orgName>
-         </respStmt>
+            <title>Transcription of Hippodromens nyårsrevy 1913 booklet</title>
+       
+            <meeting>Final project for Digitising Cultural Heritage Material course at The University of Borås</meeting>
+            <respStmt>
+               <name>Cathrine Hellberg</name>
+               <name>Carolina Nilsson</name>
+               <name>Maia Wallner</name>
+               <resp>trancribed by</resp>
+          
+            </respStmt>
+        
          </titleStmt>
          <publicationStmt>
-            <authority>Cathrine Hellberg</authority>
-            <authority>Carolina Nilsson</authority>
-            <authority>Maia Wallner</authority>
-            <distributor> University of Borås</distributor>
-            <address>
-            <addrLine>Allégatan 1</addrLine>
-            <addrLine>503 32 Borås</addrLine>
-            <addrLine>Sweden</addrLine>
-            </address>
-            <availability>
-               <licence></licence> <!-- fyll i senare -->
- 
-            </availability>
-            <date when="2026-06-05">, June 5th 2026</date>
+            <p>A part of a school project, not to be distributed</p>
          </publicationStmt>
-         <notesStmt>
-            <note> <date>"2016"</date> examination for the Digitizing Cultural Heritage Material course</note>
-         </notesStmt>
          <sourceDesc>
-      <bibl>A booklet with a selection of songs from Hippodromen's New Years revue 1913 
-      </bibl>
+            <p>A small print booklet with selected revue songs from Hippodromens nyårsrevy 1913, available at the public library in Malmö</p>
+   
          </sourceDesc>
+         
       </fileDesc>
-    <profileDesc>
-  <langUsage>
-    <language ident="sv">Swedish</language>
-  </langUsage>
-  <textClass>
-    <keywords>
-      <term>printed booklet</term>
-    </keywords>
-  </textClass>
-</profileDesc>
-	  
-	  <encodingDesc>
-        <projectDesc> <p>The digitisation project is a part of the Digitising Cultural Heritage Materials course,
-           from the master’s program in Library and Information Science at the University of Borås </p>
-        </projectDesc>
-        <editorialDecl>
-           <p>The text content of the booklet was transkibed to the best of our ability, 
-              although some alternations has been made due to symbols difficult to translate to digital representation, 
-              because the original is hand printed and additons has been made in forms of coloring, drawings etc.</p> <!-- redigera -->
-        </editorialDecl>
-     </encodingDesc>
-     <revisionDesc>
-        <listChange>
-           <change when= "2026-04-27"> <persName>Cathrine Hellberg</persName> created the encoding</change>
-        </listChange>
-     </revisionDesc>
   </teiHeader>
-   <TEI xml:id="Omslag-framsida">
-      <teiHeader>
-         <!-- header for front page -->
-         <fileDesc>
-            <titleStmt>
-               <title>Omslag framsida</title>
-            </titleStmt>
-            <publicationStmt>
-               <authority> Cathrine Hellberg</authority>
-               <authority> Carolina Nilsson</authority>
-               <authority> Maia Wallner</authority>
-            </publicationStmt>
-            <sourceDesc>
-               <msDesc>
-                  <msIdentifier>
-                     <msName>Omslag framsida</msName>
-                  </msIdentifier> 
-                  <msContents>
-                     <summary>The front page of the booklet
-                        <lb/> State the title of the revue and an advertisment for the sponsor Solo Kaffe.
-                        <lb/> A handwritten note from the library staff "småtryck"
-                        <lb/>The booklet is part of a colletion of small prints at the City Library in Malmö.</summary>
-                  </msContents>
-                  <physDesc>
-                     <objectDesc>
-                        <supportDesc>
-                           <extent>
-                              Postcard 1:2 sides <!-- mått på häftet -->
-                              <dimensions unit="cm">
-                                 <height>13.5</height>
-                                 <width>8.5</width>
-                              </dimensions>
-                           </extent>
-                        </supportDesc>
-                     </objectDesc>
-                  </physDesc>
-               </msDesc>
-            </sourceDesc>
-         </fileDesc>
-         <profileDesc>
-			 </profileDesc>
+   <facsimile>
+   <surface xml:id="Framsida">
+      <figure>
+         <label>Pass framsida</label>
+         <figDesc>Digitaliserad bild av häftets framsida
+         </figDesc>
+         <graphic xml:id="FramsidaGraphic"  url="../img/omslag-framsida.gif"/>                           
+      </figure>
+   </surface>
+   <!-- Sida 1-2 --> 
+   <surface xml:id="Uppslag1">
+      <figure>
+         <label>Häfte sida 1-2</label>
+         <figDesc>Digitaliserad bild häftet sida 1-2</figDesc>
+         <graphic xml:id="Uppslag1Graphic" url="../img/uppslag1.gif">               
+         </graphic>
+      </figure>
+   </surface>
+      <!-- sida 3-4 -->
+      <surface xml:id="Sida3_4">
+         <figure>
+            <label>Häfte sida 3-4</label>
+            <figDesc>Digitaliserad bild häftet sida 3-4</figDesc>
+            <graphic xml:id="Sida3_4Graphic" url="../img/uppslag2.gif">               
+            </graphic>
+         </figure>
+         </surface>
+      <!-- sida 5-6 -->
+      <surface xml:id="Sida5_6">
+         <figure>
+            <label>Häfte sida 5-6</label>
+            <figDesc>Digitaliserad bild häftet sida 5-6</figDesc>
+            <graphic xml:id="Sida5_6Graphic" url="../img/uppslag3.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 7-8 -->
+      <surface xml:id="Sida7_8">
+         <figure>
+            <label>Häfte sida 7-8</label>
+            <figDesc>Digitaliserad bild häftet sida 7-8</figDesc>
+            <graphic xml:id="Sida7_8Graphic" url="../img/uppslag4.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 9-10 -->
+      <surface xml:id="Sida9_10">
+         <figure>
+            <label>Häfte sida 9-10</label>
+            <figDesc>Digitaliserad bild häftet sida 9-10</figDesc>
+            <graphic xml:id="Sida9_10Graphic" url="../img/uppslag5.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 11-12 -->
+      <surface xml:id="Sida11_12">
+         <figure>
+            <label>Häfte sida 11-12</label>
+            <figDesc>Digitaliserad bild häftet sida 11-12</figDesc>
+            <graphic xml:id="Sida11_12Graphic" url="../img/uppslag6.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 13-14 -->
+      <surface xml:id="Sida13_14">
+         <figure>
+            <label>Häfte sida 13-14</label>
+            <figDesc>Digitaliserad bild häftet sida 13-14</figDesc>
+            <graphic xml:id="Sida13_14Graphic" url="../img/uppslag7.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 15-16 -->
+      <surface xml:id="Sida15_16">
+         <figure>
+            <label>Häfte sida 15-16</label>
+            <figDesc>Digitaliserad bild häftet sida 15-16</figDesc>
+            <graphic xml:id="Sida15_16Graphic" url="../img/uppslag8.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 17-18 -->
+      <surface xml:id="Sida17_18">
+         <figure>
+            <label>Häfte sida 17-18</label>
+            <figDesc>Digitaliserad bild häftet sida 17-18</figDesc>
+            <graphic xml:id="Sida17_18Graphic" url="../img/uppslag9.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 19-20 -->
+      <surface xml:id="Sida19_20">
+         <figure>
+            <label>Häfte sida 19-20</label>
+            <figDesc>Digitaliserad bild häftet sida 19-20</figDesc>
+            <graphic xml:id="Sida19_20Graphic" url="../img/uppslag10.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 21-22 -->
+      <surface xml:id="Sida21_22">
+         <figure>
+            <label>Häfte sida 21-22</label>
+            <figDesc>Digitaliserad bild häftet sida 21-22</figDesc>
+            <graphic xml:id="Sida21_22Graphic" url="../img/uppslag11.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 23-24 -->
+      <surface xml:id="Sida23_24">
+         <figure>
+            <label>Häfte sida 23-24</label>
+            <figDesc>Digitaliserad bild häftet sida 23-24</figDesc>
+            <graphic xml:id="Sida23_24Graphic" url="../img/uppslag12.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida 25-26 -->
+      <surface xml:id="Sida25_26">
+         <figure>
+            <label>Häfte sida 25-26</label>
+            <figDesc>Digitaliserad bild häftet sida 25-26</figDesc>
+            <graphic xml:id="Sida25_26Graphic" url="../img/uppslag13.gif">               
+            </graphic>
+         </figure>
+      </surface>
+      <!-- sida Baksida -->
+      <surface xml:id="Baksida">
+         <figure>
+            <label>Digitaliserad bild av häftets baksida</label>
+            <figDesc>Digitaliserad bild häftets baksida</figDesc>
+            <graphic xml:id="BaksidaGraphic" url="../img/omslag-baksida.gif">               
+            </graphic>
+         </figure>
+      </surface>
+   </facsimile>
+   <!-- Transkriptioner -->
   <text>
+ <!-- Framsida -->
+     
+        
+     
       <body>
-        <pb facs="../img/omslag-framsida.gif"/>
-		  <p>Some text here.</p>
+         <div type="page" facs="#Framsida">
+            <pb n="0"/>
+         <head type= "Titel">P·A·S⋅S</head>
+         <head>
+            HIPPODROMENS <lb/> NYÅRSREVY <lb/> 1913.</head>
+         <p>Urval bland kupletterna</p>
+         <p>DRICK SOLO-KAFFE</p>
+         <p> 
+           <stamp>Malmö Stadsbibliotek <lb/>
+              Malmö samlingen </stamp></p>
+         <note>Småtryck
+            
+         </note>
+            </div>
+         
+        <!-- Uppslag 1, sida 1-->
+         <div type="page" facs="#Uppslag1"> </div>
+            <div type="advertisment">
+            <pb n="1"/>
+               <head> VESSEL &amp;VETT</head>
+               <p>Södergatan (midt emot Teatern)</p>
+               <lg>
+                  <l>Södra Sveriges största <lb/>MATT &amp; lb/>LINOLIUMLAGER</l>
+                  <l> GARDINER </l>
+                    <l> MÖBELTYGER </l>
+                    <l> HVITA VAROR </l>
+                     <l> DRÄKTTYGER </l>
+                    <l> SÄNGAR </l>
+                    <l> SÄNGUTSTYRSEL KLÄDNINGSTYGER </l>
+                    <l> SIDEN </l>
+                    <l> SPETSAR </l>
+                    <l> MANSTRÖJOR </l>
+                    <l> KORSETTER LINNE </l>
+                     <l>BLUSAR. </l>
+                  </lg>
+               <p> FÖRSTKLASSIG SYATELIER<lb/>
+                  HERREKIPERING m. m. 
+               </p>
+               <!-- Uppslag 1 sida 2 innehåller bilder, kolla hur man gör detta bäst-->
+               <div type="page" facs="#Uppslag1"> </div>
+               <pb n="2"/>
+               
+            
+</div>
+         <!-- uppslag 2, sida 1 -->
+         <div type="page" facs="Sida3_4"> </div>
+         <div type="advertisment">
+            <pb n="2"/>
+            <head>TORR WOLKES TORR</head>
+            <l>Paris 1900. Helsingborg 1903.  Trade W Mark  Helsingborg 1903. London 1901.</l>
+              <l> ÄKTA
+               <lb/>Caloric Punsch 
+                 <lb/>Gustav Wolke      Malmö</l>
+              <note type="unclear">
+                 <p> Oklar text…</p></note> 
+         </div>
+         <div type="advertisment">
+            <head>Photographie Rembrandt </head>
+            <l>S. Förstadsgatan 25. Rikstel. 1188.</l>
+            <l>Eleganta fotografier o. förstoringar
+               <lb/>i alla prislägen</l>
+         </div>
+         <div type="advertisment">
+            <head>Malmö Klädesmagasin</head>
+            <l>(Förest. OTTO MODÉER)</l>
+            <lg><l>Svenska och Engelska 
+               <lb/>KLÄDESVAROR
+                  <lb/>13, Södergatan 13.</l>
+            </lg>
+         
+            
+            
+            
+            
+            
+            
+         </div>
       </body>
   </text>
+   
 </TEI>
