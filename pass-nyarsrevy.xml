@@ -186,7 +186,7 @@
          </note>
             </div>
          
-        <!-- Uppslag 1, sida 1-->
+        <!-- Uppslag 1, sida 1 här tycker micke vi ska använda list-->
          <div type="page" facs="#Uppslag1"> </div>
             <div type="advertisment">
             <pb n="1"/>
@@ -215,7 +215,7 @@
                
             
 </div>
-         <!-- uppslag 2, sida 1 k -->
+         <!-- uppslag 2, sida 1 -->
          <div type="page" facs="Sida3_4"> </div>
          <div type="advertisment">
             <pb n="2"/>
