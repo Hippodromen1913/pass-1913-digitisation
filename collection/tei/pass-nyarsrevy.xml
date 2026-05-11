@@ -26,7 +26,32 @@
    
          </sourceDesc>
          
-      </fileDesc>
+     </fileDesc>
+     
+     <encodingDesc>
+        
+        <projectDesc>
+           <p>
+              The text was encoded using TEI P5 XML as part of a digitisation project.
+           </p>
+        </projectDesc>
+        
+        <editorialDecl>
+           <p>
+              OCR transcription was carried out using Google Docs and manually corrected afterwards.
+           </p>
+        </editorialDecl>
+        
+        <samplingDecl>
+           <p>
+              Original image files were scanned as high-resolution TIFF files in
+              600 dpi RGB colour. The TIFF files function as preservation masters.
+              GIF versions are used as access copies in the GitHub repository due
+              to file size limitations. Original TIFF files are stored separately.
+           </p>
+        </samplingDecl>
+        
+     </encodingDesc>
   </teiHeader>
    <facsimile>
    <surface xml:id="Framsida">
