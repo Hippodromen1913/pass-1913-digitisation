@@ -50,7 +50,7 @@ Contains project documentation and the final report.
 
 - TEI P5 for text encoding
 - OCR-based transcription workflow
-- Basic preservation metadata inspired by PREMIS
+- Basic preservation metadata inspired by PREMIS principles
 - GitHub for collaborative editing and version control
 
 ## Team
@@ -76,4 +76,4 @@ Spring 2026
 
 ## Notes
 
-The material is primarily textual, which has influenced the focus on transcription and encoding, although it also contains a small number of images that require separate handling and metadata. OCR provided a useful starting point for transcription but still required substantial manual correction. These challenges are discussed further in the project documentation and final report.
+The material is primarily textual, which has influenced the focus on transcription and encoding, although it also contains a small number of images that require separate handling and metadata. OCR provided a useful starting point for transcription but still required manual correction. These challenges are discussed further in the project documentation and final report.
