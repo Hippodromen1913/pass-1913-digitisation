@@ -52,6 +52,13 @@
         </samplingDecl>
         
      </encodingDesc>
+     
+     <profileDesc>
+        <langUsage>
+           <language ident="sv">Swedish</language>
+        </langUsage>
+     </profileDesc>
+     
   </teiHeader>
    <facsimile>
    <surface xml:id="Framsida">
