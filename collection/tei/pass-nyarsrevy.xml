@@ -13,7 +13,7 @@
                <name>Cathrine Hellberg</name>
                <name>Carolina Nilsson</name>
                <name>Maia Wallner</name>
-               <resp>trancribed by</resp>
+               <resp>transcribed by</resp>
           
             </respStmt>
         
@@ -213,12 +213,12 @@
          
         <!-- Uppslag 1, sida 1-->
          <div type="page" facs="#Uppslag1"> </div>
-            <div type="advertisment">
+            <div type="advertisement">
             <pb n="1"/>
                <head> WESSEL &amp;VETT</head>
                <p>Södergatan (midt emot Teatern)</p>
                <lg>
-                  <l>Södra Sveriges största <lb/>MATT &amp; lb/>LINOLIUMLAGER</l>
+                  <l>Södra Sveriges största <lb/>MATT &amp; <lb/>LINOLIUMLAGER</l>
                   <l> GARDINER </l>
                     <l> MÖBELTYGER </l>
                     <l> HVITA VAROR </l>
@@ -241,7 +241,7 @@
             
 </div>
          <!-- uppslag 2, sida 1 -->
-         <div type="page" facs="Sida3_4"> </div>
+         <div type="page" facs="#Sida3_4"> </div>
          <div type="advertisement">
             <pb n="2"/>
             <head>TORR WOLKES TORR</head>
