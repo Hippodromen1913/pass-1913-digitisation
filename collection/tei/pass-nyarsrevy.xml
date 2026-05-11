@@ -57,7 +57,18 @@
         <langUsage>
            <language ident="sv">Swedish</language>
         </langUsage>
+        
+        <textClass>
+           <keywords>
+              <term>revy</term>
+              <term>kupletter</term>
+              <term>Malmö</term>
+              <term>scenkonst</term>
+              <term>1910-tal</term>
+           </keywords>
+        </textClass>
      </profileDesc>
+     
      
   </teiHeader>
    <facsimile>
