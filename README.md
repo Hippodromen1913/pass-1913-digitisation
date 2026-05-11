@@ -37,9 +37,14 @@ Original image files were scanned as high-resolution TIFF files in 600 dpi RGB c
 
 ## Repository Structure
 
-- `data/` → source material and access image files
-- `tei/` → TEI-encoded files
-- `docs/` → documentation and final report
+data/
+Contains scans and image files.
+
+tei/
+Contains the TEI XML files.
+
+docs/
+Contains project documentation and the final report.
 
 ## Standards and Frameworks
 
