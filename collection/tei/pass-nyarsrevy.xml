@@ -98,6 +98,7 @@
             <figDesc>Digitaliserad bild häftet sida 13-14</figDesc>
             <graphic xml:id="Sida13_14Graphic" url="../img/uppslag7.gif">               
             </graphic>
+            
          </figure>
       </surface>
       <!-- sida 15-16 -->
@@ -241,16 +242,92 @@
                   <lb/>13, Södergatan 13.</l>
             </lg>
          </div>
-            
+         <!-- uppslag 2, sida 2 -->
+         
             <div>
-               <div type="test">
+               <div type="couplet">
+                  <pb n="3"/>
+                  <head>Arbetarnes kör.</head>
+                  
+                     
+                      <p>Nu har jag arbetat och knogat med dej, 
+                     <lb/>lilla Andersson, liolej,
+                     <lb/>lilla Johansson, liolej,
+                     <lb/>Jag bjuder på Mattssons en bärsa på dej 
+                     <lb/>lilla Johansson, lilla Andersson,
+                     <lb/>liolej, lioliolej!
+                     <lb/>Och en nubbe
+                     <lb/>för hvarenda stubbe!
+                    <lb/> Kom mä mej,
+                    <lb/> blott mä dej
+                     <lb/>tar jag nubbe, 
+                     <lb/>Och en nubbe
+                    <lb/> för hvarenda stubbe!
+                    <lb/> kom mä mej,
+                    <lb/> jag vill nubba mä dej, 
+                    <lb/> lioliolej ! </p>
+                     
+                     <p>Jag delar båd' kofva och bärsa mä dej, 
+                     <lb/>Om bylingen bråkar, så slås jag för dej. </p>
+                     
+                    <p> Om sedan jag kommer i finkan mä dej, 
+                     <lb/>jag ligger i syskonsäng ljufligt mä dej. </p>
+                     
+                     <p>På måndag jag firar frimåndag mä dej, 
+                    <lb/> Och blir det nå'n kärlek, jag delar mä dej. </p>
+                     
+                    <p> Och sedan jag strejkar tillsammans mä dej, 
+                    <lb/> och delar mitt strejkunder-stöd blott mä dej.
+                     
+                  </p>
                   
                </div>
-            
-            
-            
-            
-         </div>
+               
+               <!-- uppslag 3, sida 1 -->
+               <div>
+                  <div type="couplet">
+                     <pb n="4"/>
+                     <head>Vik åt vänster!
+                     <lb/> (DRag &amp;Blank)</head>
+                     
+                     <p>Man aldrig är nöjd med hvad fordomdags var, 
+                        <lb/>hvar dag måste ständigt bli ny.
+                       <lb/> Det gamla, man ärft ifrån farfar och far, 
+                        <lb/>är man tvungen att hata och sky. 
+                       <lb/> Och den är en uråldrig reaktionär, 
+                        <lb/>som ser det förgångnas förtjänster. 
+                       <lb/> Nej, lösen och lystring för dagen nu är 
+                       <lb/> beständigt: Vik bara åt vänster! </p>
+                        
+                        <p>Ifall på en gata i Malmö man går, 
+                        <lb/>är vandringen alls inte lätt.
+                       <lb/> Ty rakt ingen människa nu längre förstår
+                       <lb/> hvad på trottoaren är rätt.
+                        <lb/>Herr Hårleman med sina gathörnsplakat
+                       <lb/> har inlagt de största förtjänster,
+                        <lb/>och på Södergatan konstapeln kavat 
+                       <lb/> befaller: Vik bara åt vänster! </p>
+                        
+                       <p> Herr Staaff och herr David regera alltjämt
+                        <lb/>med myndig och god precision.
+                       <lb/> Om också herr Jacob blir utsatt för skämt, 
+                       <lb/> generar det ej hans person.
+                        <lb/>Men Branting är skiftesvis ilsken och blyg, 
+                       <lb/> hur lönar väl Staaffen hans tjänster?
+                        <lb/>Han svär i mustaschen och mumlar i smyg: 
+                       <lb/> Ack, Kalle, vik bara åt vänster! </p>
+                        
+                       <p> Vid Skolgatan ligger ett mindre palats, 
+                       <lb/> gemenligen nämndt Folkets hus,
+                        <lb/>och målare Ehnrooth mång väldig strapats 
+                        <lb/>där kämpar för frihet och ljus,
+                        <lb/>Han aktar ej Kabbarp det ringaste grand, 
+                        <lb/>ej X:ets och Löwegrens tjänster,
+                       <lb/> men vrålar beständigt med skägget i brand 
+                        <lb/>Folkviljans: Vik alltid åt vänster!</p>
+               </div>
+               </div>
+            </div>
       </body>
   </text>
    
