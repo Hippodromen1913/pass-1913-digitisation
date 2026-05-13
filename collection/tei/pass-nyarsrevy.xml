@@ -22,7 +22,36 @@
             <p>A part of a school project, not to be distributed</p>
          </publicationStmt>
          <sourceDesc>
-            <p>A small print booklet with selected revue songs from Hippodromens nyårsrevy 1913, available at the public library in Malmö</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Malmö</settlement>
+                  <repository>Malmö stadsbibliotek</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <p><material>Papper</material> med en häftad bindning. En stämpel på 
+                              omslaget "Malmö stadsbibliotek småtryck. Samt en anteckning med 
+                              bläckpenna "IK".(Vilket förmodlingen åsyftar SAB:s klassifikationssystem 
+                              och står för Konst, musik, teater, film, fotografi samt Historia.</p>
+                        </support>
+                        <extent>12 sidor
+                           <dimensions scope="all" type="leaf" unit="cm">
+                              <height unit="cm">20,2</height>
+                              <width unit="cm">13,4</width>
+                           </dimensions>
+                        </extent>
+                        <condition>
+                           <p>Pappret är gult, men vi vet inte om det är på grund av ålder eller 
+                              om det från början varit så. I gott skick, inga tydliga tecken på 
+                              slitage eller blekning.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
    
          </sourceDesc>
          
@@ -36,20 +65,40 @@
            </p>
         </projectDesc>
         
+        
         <editorialDecl>
            <p>
               OCR transcription was carried out using Google Docs and manually corrected afterwards.
            </p>
+           <normalization>
+              <p>Texten har transkriberats som det återges i orginalkällan</p>
+           </normalization>
+           <correction>
+              <p>Ingen rättning eller modernisering av texten har genomförts</p>
+           </correction>
+           <hyphenation>
+              <p>Alla hyphenationer är återgivna exakt som i texten</p>
+           </hyphenation>
+           <punctuation>
+              <p>Skiljetecken är återgivna exakt som i texten</p>
+           </punctuation>
+           <segmentation>
+              <p>Rader har markerats med <gi>lb</gi> för att återge textens radbrytning.
+                 Sidor har markerats med <gi>pb</gi> med attribut <att>n</att> med åtföljande 
+                 sidnummer. Typ av innehåll har markerats med <gi>div</gi> med åtföljande 
+                 attribut <att>type</att> och efterföljande värde <att>advertisement</att> för 
+                 annonser eller <att>couplet</att> för kupletter. Kupletter har delats in med 
+                 <gi>lg</gi> med åtföljande attribut <att>type</att> med värde <att>verse</att>. 
+                 Indrag har markerats med <gi>hi</gi> med attributet <att>rend</att> med 
+                 värdet "indent".</p>
+           </segmentation>
         </editorialDecl>
-        
         <samplingDecl>
-           <p>
-              Original image files were scanned as high-resolution TIFF files in
+           <p>Original image files were scanned as high-resolution TIFF files in
               600 dpi RGB colour. The TIFF files function as preservation masters.
               GIF versions are used as access copies in the GitHub repository due
-              to file size limitations. Original TIFF files are stored separately.
-           </p>
-        </samplingDecl>
+              to file size limitations. Original TIFF files are stored separately.</p>
+            </samplingDecl>
         
      </encodingDesc>
      
