@@ -605,6 +605,27 @@
                </sp>
             </div>
          </div>
+               <!-- Uppslag 6 sida 1 -->
+               <div type="page" facs="#Sida11_12">
+                  <pb n="11"/>
+                  <div type="advertisment">
+                     <p>   Annonsera <lb/>genom <lb/>A.-B. S. Gumælii Annonsbyrå
+                        <lb/>Stora Nygatan 64 <lb/>4:e huset fr. Teatern </p>
+                  </div>
+                  <div type="advertisment">
+                     <figure>
+                        <graphic url="../img/uppslag6.gif"/>
+                     <figDesc>Texten finns inuti en formad ruta med en illustration av en kvinna som håller i
+                        en palett i höger hand och en pensel i vänster hand.</figDesc>
+                     </figure>
+                     <p>ILLUSTRERA <lb/> ANNONSEN<lb/></p>
+                     <p>Den verkar mång-<lb/>dubbelt bättre!!!<lb/> </p>
+                     <p>KLICHÉER<lb/> <hi rend="italic">erhålls bäst och snabbast från</hi> <lb/>
+                     KEMIGRAFISKA A:B. <lb/>I MALMÖ</p>
+                     
+     
+            </div>
+         </div>
       </body>
   </text>
    
