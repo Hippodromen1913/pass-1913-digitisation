@@ -441,59 +441,170 @@
                
                <!-- Uppslag 3 sida 2 kvinnan som offentlig person-->
                
-               <!-- Uppslag 4 sida 2 -->
-               <div type="page" facs="#Sida7_8">
-                  <pb n="8"/>
-                  <div type="couplet">
-                     <head>Framifrån och bakifrån.</head>
-                     <p>(Lejonhjärta och Cæsar)</p>
-                     
-                     <lg type="verse" n="1">
-                        <l>Det är mycket, som kan te sig ganska godt</l>
-                        <l><hi rend="indent">— framifrån —</hi></l>
-                        <l>men som nog är både ynkeligt och smått</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                        <l>Om fasaden är i smaken,</l>
-                        <l>kanske dock du afskyr baken,</l>
-                        <l>och rätt ofta kan man vädra en komplott</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                     </lg>
-                     <lg type="verse" n="2">
-                        <l>Faktor Lannto var ju ganska obstinat</l>
-                        <l><hi rend="indent">— framifrån —</hi></l>
-                        <l>och smet in uti vår höga rikssenat</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                        <l>Snart han vända fick sin kappa</l>
-                        <l>och blef tvungen till att schappa,</l>
-                        <l>för han hade spelat lanter för kavat</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                     </lg>
-                     <lg type="verse" n="3">
-                        <l>Och herr Lindhagens uppsyn är nog blid</l>
-                        <l><hi rend="indent">— framifrån —</hi></l>
-                        <l>men han älskar dock att kasta sig i strid</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                        <l>och med våldsamt krigarhjärta</l>
-                        <l>han sin fiende kan svärta</l>
-                        <l>så att bläckhornet går i kras därvid</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                     </lg>
-                     <lg type="verse" n="4">
-                        <l>Ej Carl Gustaf fick i år sin Stockholmsstod</l>
-                        <l><hi rend="indent">— framifrån —</hi></l>
-                        <l>tackadt vare herr professor Lundbergs mod</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                        <l>Alla skisser han kasserar</l>
-                        <l>och belåten triumferar</l>
-                        <l>när han visar en, som själf han finner god</l>
-                        <l><hi rend="indent">— bakifrån —</hi></l>
-                     </lg>
-                     
-                     
-               </div>
-               </div>
+         <!-- Uppslag 4 sida 2 -->
+         <div type="page" facs="#Sida7_8">
+            <pb n="8"/>
+            <div type="couplet" part="I">
+               <head>Framifrån och bakifrån.</head>
+               <p>(Lejonhjärta och Cæsar)</p>
+               <lg type="verse" n="1">
+                  <l>Det är mycket, som kan te sig ganska godt</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men som nog är både ynkeligt och smått</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Om fasaden är i smaken,</l>
+                  <l>kanske dock du afskyr baken,</l>
+                  <l>och rätt ofta kan man vädra en komplott</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="2">
+                  <l>Faktor Lannto var ju ganska obstinat</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>och smet in uti vår höga rikssenat</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Snart han vända fick sin kappa</l>
+                  <l>och blef tvungen till att schappa,</l>
+                  <l>för han hade spelat lanter för kavat</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="3">
+                  <l>Och herr Lindhagens uppsyn är nog blid</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men han älskar dock att kasta sig i strid</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>och med våldsamt krigarhjärta</l>
+                  <l>han sin fiende kan svärta</l>
+                  <l>så att bläckhornet går i kras därvid</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="4">
+                  <l>Ej Carl Gustaf fick i år sin Stockholmsstod</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>tackadt vare herr professor Lundbergs mod</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Alla skisser han kasserar</l>
+                  <l>och belåten triumferar</l>
+                  <l>när han visar en, som själf han finner god</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+            </div>
+         </div>
          
+         <!-- Uppslag 5 sida 1 -->
+         <div type="page" facs="#Sida9_10">
+            <pb n="9"/>
+            <div type="couplet" part="F">
+               <lg type="verse" n="5">
+                  <l>Man i Limhamn ville inkorporation</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men hade kvar ett litet fint belysningsdon</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Jag vill inte alls ha sagt' et,</l>
+                  <l>men Ambrosius med kontraktet</l>
+                  <l>det var allt en liten nätt spekulation</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="6">
+                  <l>Det är ganska ljuft att ta ett bad ibland</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men Lachmann tog vårt folkbad helt omhand</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Och när nu vi gå att bada, bli båd' vi och Lachmann glada</l>
+                  <l>ty herr Lachmann er en flot Forretningsmand</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+            </div>
             
+            <div type="couplet">
+               <head>Fredens Gudinna.</head>
+               <lg type="verse" n="1">
+                  <l>Här kommer nu Fredens gudinna,</l>
+                  <l>hvitskrudad med fläktande palm.</l>
+                  <l>Där jag sväfvar fram, strax försvinna</l>
+                  <l>all strid och allt bråk och allt kvalm.</l>
+               </lg>
+               <lg type="verse" n="2">
+                  <l>Nu är himmelens rike helt nära,</l>
+                  <l>vår jord blir en änglarnes zon,</l>
+                  <l>och aldrig oss mer skall förfära</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+               <lg type="verse" n="3">
+                  <l>Snart randas den signade dagen,</l>
+                  <l>som siarn förkunnat oss har.</l>
+                  <l>Af oskuldens änglar är dragen</l>
+                  <l>min snöhvitt skinande char.</l>
+               </lg>
+               <lg type="verse" n="4">
+                  <l>All jordens folk blifva vänner,</l>
+                  <l>all sång går i fridshymnens ton,</l>
+                  <l>och snart ingen mänska mer känner</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+               <pb n="10"/>
+               <lg type="verse" n="5">
+                  <l>Se, änglarnes fladdrande vingar,</l>
+                  <l>de fläkta sin svalkande frid,</l>
+                  <l>och sången sig glädjefullt svingar</l>
+                  <l>med varsel om sällhetens tid.</l>
+               </lg>
+               <lg type="verse" n="6">
+                  <l>Snart friden vår värld skall regera</l>
+                  <l>och kärleken, hoppet och tron,</l>
+                  <l>och aldrig vi skåda se'n mera</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+            </div>
+            
+            <div type="couplet">
+               <head>Kärlek och pisk.</head>
+               <p>(Kalle och Elsa)</p>
+               <sp>
+                  <speaker>Båda:</speaker>
+                  <lg type="verse" n="1">
+                     <l>Hand i hand vi vandra</l>
+                     <l>i parken med hvarandra</l>
+                     <l>så godt som hvarje kväll,</l>
+                     <l>fastän det renderar smäll.</l>
+                     <l>Nog är det grymt att klandra</l>
+                     <l>att två tillsammans vandra.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Kalle:</speaker>
+                  <lg type="verse" n="2">
+                     <l>Jag går i nedre ringen.</l>
+                     <l>Där finns det säkert ingen</l>
+                     <l>så glad som Kalle Bratt,</l>
+                     <l>och sinnet blef än mera gladt,</l>
+                     <l>och hoppet lyfte vingen,</l>
+                     <l>när Elsa gaf mig ringen.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Elsa:</speaker>
+                  <lg type="verse" n="3">
+                     <l>Jag har en faslig fröken,</l>
+                     <l>och lifvet var en öken,</l>
+                     <l>om inte man var kär.</l>
+                     <l>Men när min Kalle är mig när,</l>
+                     <l>i kyssarne och röken</l>
+                     <l>jag struntar blankt i fröken.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Kalle:</speaker>
+                  <lg type="verse" n="4">
+                     <l>Jag har en ryslig rektor,</l>
+                     <l>mer led än skabb och skäktor,</l>
+                     <l>en fruktansvärd spion.</l>
+                     <l>Han lurar jämt på min person.</l>
+                     <l>Men Amor är protector</l>
+                     <l>för mig emot min rektor.</l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
       </body>
   </text>
    
