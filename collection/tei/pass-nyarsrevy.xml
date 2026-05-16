@@ -71,7 +71,7 @@
               OCR transcription was carried out using Google Docs and manually corrected afterwards.
            </p>
            <normalization>
-              <p>Texten har transkriberats som det återges i orginalkällan</p>
+              <p>Texten har transkriberats som det återges i originalkällan</p>
            </normalization>
            <correction>
               <p>Ingen rättning eller modernisering av texten har genomförts</p>
@@ -305,7 +305,7 @@
          </div>
                
                <!-- Uppslag 1 sida 2 i-->
-         <div>
+         <div type="page" facs="#Uppslag1">
                   <pb n="2"/>
                <figure>
                   <graphic url="../img/uppslag1.gif"/>
@@ -345,9 +345,10 @@
          </div>
          </div>
          <!-- uppslag 2, sida 2 -->
-         
-      <pb n="4"/>
-       <div type="couplet">
+         <div type="page" facs="#Sida3_4">
+            <pb n="4"/>
+            
+            <div type="couplet">
                   
                   <head>Arbetarnes kör.</head>
                   
@@ -387,10 +388,10 @@
                   </lg>
                   
                </div>
-                  
-               
-               
-               <!-- uppslag 3, sida 1 -->
+         </div>
+         
+         
+         <!-- uppslag 3, sida 1 -->
          <div type="page" facs="#Sida5_6">
             <pb n="5"/>
             <div type="couplet">
@@ -437,7 +438,7 @@
                   <l>Folkviljans: Vik alltid åt vänster!</l>
                </lg>
             </div>
-         </div>
+            
                
                <!-- Uppslag 3 sida 2 kvinnan som offentlig person-->
          <div type="page" facs="#Sida5_6">
@@ -667,7 +668,7 @@
                      <p>   Annonsera <lb/>genom <lb/>A.-B. S. Gumælii Annonsbyrå
                         <lb/>Stora Nygatan 64 <lb/>4:e huset fr. Teatern </p>
                   </div>
-                  <div type="advertisment">
+                  <div type="advertisement">
                      <figure>
                         <graphic url="../img/uppslag6.gif"/>
                      <figDesc>Texten finns inuti en formad ruta med en illustration av en kvinna som håller i
@@ -677,9 +678,12 @@
                      <p>Den verkar mång-<lb/>dubbelt bättre!!!<lb/> </p>
                      <p>KLICHÉER<lb/> <hi rend="italic">erhålls bäst och snabbast från</hi> <lb/>
                      KEMIGRAFISKA A:B. <lb/>I MALMÖ</p>
-                     </div>
-                  <!-- Uppslag 6 sida 2 -->
-                  <div type="page" facs="#Sida11_12">
+                  </div>
+                  
+               </div>
+            
+            <!-- Uppslag 6 sida 2 -->
+            <div type="page" facs="#Sida11_12">
                      <pb n="11"/>
                      
                      <div type="couplet">
@@ -772,9 +776,7 @@
                <figDesc>Fotografi av Alma Adler som luftkapten på Hansa.</figDesc>
             </figure>
             
-            <list type="simple">
-               <item>Alfhild André som luftkapten på Hansa.</item>
-            </list>
+            <p>Alfhild André som luftkapten på Hansa.</p>
             
             <pb n="13"/>
             
@@ -782,42 +784,39 @@
                <graphic url="../img/uppslag7.gif"/>
                <figDesc>Gruppfotografi föreställande Det flyende haremet.</figDesc>
             </figure>
-            
-            <list type="simple">
-               <item>Det flyende haremet.</item>
-            </list>
+          
+              <p>Det flyende haremet.</p>
             
          </div>
          
-            <!-- Uppslag 8 sida 1 -->
-            <div type="page" facs="#Sida15_16">
-               <pb n="14"/>
+         <!-- Uppslag 8 sida 1 -->
+         <div type="page" facs="#Sida15_16">
+            <pb n="14"/>
+            
+            <div type="advertisement">
                
-               <div type="advertisement">
-                  <list type="simple">
-                     
-                     <item>Köp BLUSAR <lb/>
-                        hos <lb/>
-                        Blus-Specialisten <lb/>
-                        Adelgatan <lb/>
-                        Obs! Passform garanteras
-                     </item>
-                     
-                     <item>Gottfrid Jacobsons <lb/>
-                        Blomsterhandel <lb/>
-                        Baltzarsgatan 41 <lb/>
-                        Telefon 1618, 2768
-                     </item>
-                     
-                     <item>S. C. W. Söderbergs <lb/>
-                        FISK- &amp; VILDT- <lb/>
-                        HANDEL <lb/>
-                        Midt emot Statens järnvägsstation.
-                     </item>
-                     
-                  </list>
-               </div>
+               <p>Köp BLUSAR<lb/>
+                  hos<lb/>
+                  Blus-Specialisten<lb/>
+                  Adelgatan<lb/>
+                  Obs! Passform garanteras
+               </p>
+               
+               <p>Gottfrid Jacobsons<lb/>
+                  Blomsterhandel<lb/>
+                  Baltzarsgatan 41<lb/>
+                  Telefon 1618, 2768
+               </p>
+               
+               <p>S. C. W. Söderbergs<lb/>
+                  FISK- &amp; VILDT-<lb/>
+                  HANDEL<lb/>
+                  Midt emot Statens järnvägsstation.
+               </p>
+               
             </div>
+            
+         </div>
             
             <!-- Uppslag 8 sida 2 -->
             <div type="page" facs="#Sida15_16">
@@ -887,9 +886,487 @@
                   </lg>
                   
                </div>
+           
+               <!-- Uppslag 9 sida 1 -->
+               <div type="page" facs="#Sida17_18">
+                  <pb n="16"/>
+                  
+                  <div type="couplet">
+                     
+                     <lg type="verse" n="4">
+                        <l>Hvem är det som afskyr och skolmästrar prästen</l>
+                        <l>och själfvaste biskopen också för resten</l>
+                        <l>och inte tar varning, om aldrig så len?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                     </lg>
+                     
+                     <lg type="verse" n="5">
+                        <l>Hvem vågar en dust väl med själfva Thyrén?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>— och aldrig till väldiga svärdshugg är sen?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>Hvem är det, hvars ord af hänförelse glöda,</l>
+                        <l>hvars åsikter, skäggväxt och själ äro röda,</l>
+                        <l>hvars röst är en smäktande vek kantilen?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                     </lg>
+                     
+                     <lg type="verse" n="6">
+                        <l>Hvem är det, som jämt af belåtenhet sken?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>— fast aldrig han ens tar en snaps till supén?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>Hvem är det, som en gång, när Branting är borta</l>
+                        <l>och Hinke och Zäta ha kommit till korta,</l>
+                        <l>skall traska i têten på knubbiga ben?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                     </lg>
+                     
+                     <lg type="verse" n="7">
+                        <l>Hvem fostrar de små i hvar vetandets gren</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>Hvem äger de vises förborgade sten?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                        <l>Hvem är det som en gång i Sveriges historia</l>
+                        <l>skall stråla i evigt beståndande gloria,</l>
+                        <l>uppeldad med hemmagjord acetylén?</l>
+                        <l><hi rend="indent">Herr Rydén.</hi></l>
+                     </lg>
+                     
+                  </div>
+                  
+                  <div type="couplet">
+                     <head>Voteringsproposition.</head>
+                     
+                     <lg type="verse" n="1">
+                        <l>Nog människorna undginge rätt mången plåga,</l>
+                        <l>om blott de begrepe förståndigt att fråga.</l>
+                        <l>Ty svaren bero uppå frågornas ton</l>
+                        <l>och på ens voteringsproposition.</l>
+                     </lg>
+                     
+                  </div>
+                  
+               </div>
                
+               <!-- Uppslag 9 sida 2 -->
+               <div type="page" facs="#Sida17_18">
+                  <pb n="17"/>
+                  
+                  <div type="couplet">
+                     
+                     <lg type="verse" n="2">
+                        <l>Ifall du får nej af en afgudad flicka,</l>
+                        <l>beror det nog på, att du ej vet dig skicka.</l>
+                        <l>Du får, när du friar, betänka, att hon</l>
+                        <l>har egen voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="3">
+                        <l>Herr Lindahl helt fyndigt och statsklokt ju tänkte,</l>
+                        <l>när ett nytt regemente åt staden han skänkte.</l>
+                        <l>Allt utförde enkelt med ledig fason</l>
+                        <l>herr Lindahls voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="4">
+                        <l>Man trodde, att grafvarna lågo här trygga,</l>
+                        <l>men nu skall man gator ju öfver dem bygga</l>
+                        <l>för spårvagn och bilar och alla slags don,</l>
+                        <l>med baltisk voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="5">
+                        <l>Vi minnas ju alla "Det spräckliga bandet".</l>
+                        <l>Det var Einar Fröberg, som lyckligen fann det.</l>
+                        <l>För Flygare blef han en skändlig person</l>
+                        <l>med sötsur voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="6">
+                        <l>När F-båten ändtligen skulle bli färdig,</l>
+                        <l>var varfstrusten ganska högtidlig och värdig.</l>
+                        <l>Den vädrade säkert en fin provision,</l>
+                        <l>en trusttröst-voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="7">
+                        <l>I Lund man om Segerstedt länge hörts bråka,</l>
+                        <l>och gladt Ola Holmström har där hoppat kråka.</l>
+                        <l>Nu gäller det kringgärda kyrkan och tron</l>
+                        <l>med Billings voteringsproposition.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="8">
+                        <l>Sitt smörgåsbord Björkman nyss vågade slopa,</l>
+                        <l>och folket strax började knota och ropa.</l>
+                        <l>Nu måste man anskaffa allt pr portion</l>
+                        <l>med särskild voteringsproposition.</l>
+                     </lg>
+                     
+                  </div>
+                  
+                  <div type="couplet">
+                     <head>Mormonen.</head>
+                     
+                     <lg type="verse" n="1">
+                        <l>Mina söta pullor allihopa</l>
+                        <l>här jag samlat uti en pluton</l>
+                        <l>för att visa för Europa — ropa</l>
+                        <l>en förnäm och lefnadsglad mormon.</l>
+                     </lg>
+                     
+                  </div>
+                  
+               </div>
+               <!-- Uppslag 10 sida 1 -->
+               <div type="page" facs="#Sida19_20">
+                  <pb n="18"/>
+                  
+                  <div type="advertisement">
+                     
+                     <p>Carl Brauns Conditori<lb/>
+                        MALMO<lb/>
+                        Rekommenderas<lb/>
+                        Ring upp 17 03 vid behof af Conditorivaror</p>
+                     
+                     <p>En sevärdhet<lb/>
+                        MALMÖ<lb/>
+                        M. ZADIGS<lb/>
+                        LEKSAKS<lb/>
+                        MAGASIN<lb/>
+                        SÖDERGATAN<lb/>
+                        26</p>
+                     
+                     <p>Tidningar - Böcker<lb/>
+                        förmånligast genom<lb/>
+                        E. NEVANDERS<lb/>
+                        Distributionsaffär<lb/>
+                        Östergatan 23<lb/>
+                        Telefon 2646</p>
+                     
+                  </div>
+                  
+               </div>
+               
+               <!-- Uppslag 10 sida 2 -->
+               <div type="page" facs="#Sida19_20">
+                  <pb n="19"/>
+                  
+                  <div type="couplet">
+                     
+                     <p>(Refräng:</p>
+                     
+                     <lg type="verse" n="2">
+                        <l>O, pascha stor, vi hylla dig</l>
+                        <l>för all din kärleksgåfva.</l>
+                        <l>Du kvinnor, hvilka följa dig,</l>
+                        <l>all himlens fröjd kan lofva.)</l>
+                     </lg>
+                     
+                     <lg type="verse" n="3">
+                        <l>Det är hemskt hvad mänskor kunna ljuga — ljuga,</l>
+                        <l>mig de skylla för månggifteri,</l>
+                        <l>fast jag knappast har en enda fruga — fruga,</l>
+                        <l>men blott söta vänner såsom Ni.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="4">
+                        <l>Ack, jag älskar att få evigt dväljas — dväljas</l>
+                        <l>uti Eder kärleksfulla midt.</l>
+                        <l>Men af ilska vill min strupe kväljas — kväljas,</l>
+                        <l>när jag inte kan få älska fritt.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="5">
+                        <l>Mormons bok jag håller uti handen — handen.</l>
+                        <l>Den för mig är lifvets enda norm.</l>
+                        <l>Tvärs Atlanten till den andra stranden — stranden</l>
+                        <l>far jag bort från pastor Örslews gorm.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="6">
+                        <l>Där i Utah får man åter smaka — smaka</l>
+                        <l>lifvets lycka utan allt fördärf.</l>
+                        <l>Du skall bli min lilla prima maka — maka</l>
+                        <l>och Ni andra stå uti reserv.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="7">
+                        <l>Ut till Utah, ut till Utah — Utah,</l>
+                        <l>ut till Utah, ut till Utah, ut!</l>
+                        <l>Där skall glädjens timma aldrig sluta — sluta,</l>
+                        <l>fast en timma går som en minut.</l>
+                     </lg>
+                     
+                  </div>
+                  
+                  <div type="couplet">
+                     <head>Löjtnanterna.</head>
+                     
+                     <sp>
+                        <speaker>Wadensmahl:</speaker>
+                        
+                        <lg type="verse" n="1">
+                           <l>Jag kommer som gäst</l>
+                           <l>till herrskapets fest,</l>
+                           <l>och bland gästerna blir jag nog bäst.</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                  </div>
+                  
+               </div>
+               <!-- Uppslag 11 sida 1 -->
+               <div type="page" facs="#Sida21_22">
+                  <pb n="20"/>
+                  
+                  <div type="advertisement">
+                     
+                     <p>1:sta klass<lb/>
+                        Rak- &amp; Frisérsalong<lb/>
+                        1 BRUKSGATAN 1<lb/>
+                        (Firma A. Silwer)<lb/>
+                        rekommenderas.<lb/>
+                        Extra hygienisk behandling.
+                     </p>
+                     
+                     <p>Wallin, Wallenberg &amp; C:o<lb/>
+                        Östra Hamngatan 6, Malmö<lb/>
+                        rekommenderar sitt stora och rikhal-<lb/>
+                        tiga lager af bättre hand- och maskin-<lb/>
+                        sydda skodon<lb/>
+                        Telefon 1584
+                     </p>
+                     
+                     <p>Andreas Svensson<lb/>
+                        Ur- &amp; Optisk Affär<lb/>
+                        Södergatan 17<lb/>
+                        REKOMMENDERAS
+                     </p>
+                     
+                     <p>HOFJUVELERARE<lb/>
+                        HALLBERG<lb/>
+                        STORTORGET<lb/>
+                        Tel. 1476 =
+                     </p>
+                     
+                  </div>
+                  
+               </div>
+               
+               <!-- Uppslag 11 sida 2 -->
+               <div type="page" facs="#Sida21_22">
+                  <pb n="21"/>
+                  
+                  <div type="couplet">
+                     
+                     <lg type="verse" n="2">
+                        <l>Ty när uppå gatan vi rida</l>
+                        <l>viker folket genast vördnadsfullt till sida</l>
+                        <l>för löjtnanten och hans fina, fina häst.</l>
+                     </lg>
+                     
+                     <sp>
+                        <speaker>Hasenstrahm:</speaker>
+                        
+                        <lg type="verse" n="3">
+                           <l>Det finnes folk, som klandrar ju vårt svenska landt-</l>
+                           <l>försvar :,:</l>
+                           <l>Men strax för enhvar står den meningen klar,</l>
+                           <l>att en kronprinshusar är en karl</l>
+                           <l>med sabel och sporrar</l>
+                           <l>och kärleksblick, som borrar,</l>
+                           <l>och kommandoröst, som morrar:</l>
+                           <l>"Gif akt" till hvarje dam. Hä, hä, hä, hä!</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                     <sp>
+                        <speaker>Wadensmahl:</speaker>
+                        
+                        <lg type="verse" n="4">
+                           <l>En kronprinslöjtnant</l>
+                           <l>han för sig så grannt</l>
+                           <l>och slår alltid an, säg, är det inte sannt?</l>
+                           <l>Kring honom af kärlek det hviner</l>
+                           <l>som skott utaf starka karbiner</l>
+                           <l>och han siktar jämnt så flott och elegant.</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                     <sp>
+                        <speaker>Hasenstrahm:</speaker>
+                        
+                        <lg type="verse" n="5">
+                           <l>Vi rida uppå gatorna och uppå Jägersro :,:</l>
+                           <l>och det må Ni tro, att kvinnfolken glo</l>
+                           <l>och tappa bort lofven och tro</l>
+                           <l>för sabel och sporrar</l>
+                           <l>och kärleksblick, som borrar,</l>
+                           <l>och kommandoröst, som morrar:</l>
+                           <l>"Gif akt" till hvarje dam. Hä, hä, hä, hä!</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                     <sp>
+                        <speaker>Wadensmahl:</speaker>
+                        
+                        <lg type="verse" n="6">
+                           <l>Och när till en bal</l>
+                           <l>man stundom sig stal,</l>
+                           <l>blef succèsen rent enormt pyramidal.</l>
+                           <l>Ty knoddar och höga grossister,</l>
+                           <l>konsuler och infanterister</l>
+                           <l>om dem var det rakt inte tal.</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                  </div>
+                  
+               </div>
+               <!-- Uppslag 12 sida 1 -->
+               <div type="page" facs="#Sida23_24">
+                  <pb n="22"/>
+                  
+                  <div type="couplet">
+                     
+                     <sp>
+                        <speaker>Hasenstrahm:</speaker>
+                        
+                        <lg type="verse" n="7">
+                           <l>Nej, segern strax vi vinna helt ledigt och helt</l>
+                           <l>lätt :,:</l>
+                           <l>Ty i kronprinsar'ns sätt det finns säkert ett,</l>
+                           <l>som tvingar burdus till reträtt</l>
+                           <l>med sabel och sporrar</l>
+                           <l>och kärleksblick, som borrar,</l>
+                           <l>och kommandoröst, som morrar:</l>
+                           <l>"Gif akt" till hvarje dam. Hä, hä, hä, hä!</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                  </div>
+                  
+                  <div type="couplet">
+                     <head>Så gjorde...</head>
+                     
+                     <lg type="verse" n="1">
+                        <l>Herr Staaff och herr David nyss haft jubileer</l>
+                        <l>och fröjdats åt året, som gått.</l>
+                        <l>Man skäller på Staaffen för hans kommittéer</l>
+                        <l>med sossar och libbar i blott.</l>
+                        <l>Men Staaff tar det lugnt, om han råkar i klister,</l>
+                        <l>för det gjorde Lindman, när han var minister.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="2">
+                        <l>Bland stadens fullmäktige Lindahl regerar</l>
+                        <l>med stränghet i faderlig blick</l>
+                        <l>och lyss till hvar plan, som herr Dahlgren presterar,</l>
+                        <l>och lyssnar till Värner och Frick.</l>
+                        <l>Blir någon för varm, ger han strax honom skrubban,</l>
+                        <l>för så gjorde Herslow, när han förde klubban.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="3">
+                        <l>Herr Dahlbeck beslöt häromsistens att flaxa</l>
+                        <l>till Stockholm ifrån Köpenhamn,</l>
+                        <l>men fann snart, att skillnad det är på att kraxa</l>
+                        <l>och lotsa sin skuta i hamn.</l>
+                        <l>Det är ingen skam att bli bet uppå färden,</l>
+                        <l>för det blef ju Cederström en gång i världen.</l>
+                     </lg>
+                     
+                     <lg type="verse" n="4">
+                        <l>Och enkronasfrukosten Moje djärfts taga</l>
+                        <l>från gästerna frejdigt och gladt,</l>
+                        <l>och genast befolkningen började klaga</l>
+                        <l>och hota att bojkotta Stadt.</l>
+                        <l>För ohygien vill herr Moje oss skona,</l>
+                        <l>det kan han ej göra för bara en krona.</l>
+                     </lg>
+                     
+                  </div>
+                  
+               </div>
+               
+               <!-- Uppslag 12 sida 2 -->
+               <div type="page" facs="#Sida23_24">
+                  <pb n="23"/>
+                  
+                  <div type="couplet">
+                     
+                     <lg type="verse" n="5">
+                        <l>Mot nykterhetsskoj mäster Palm här har kämpat</l>
+                        <l>och pratat med redeligt nit.</l>
+                        <l>Lokalvetots väldiga anlopp han dämpat</l>
+                        <l>och skyddat vår frid och vår sprit.</l>
+                        <l>Nog bör man ha roligt, ifall man har schaber,</l>
+                        <l>för det har nog Palmen, när han tar sin knaber.</l>
+                     </lg>
+                     
+                  </div>
+                  
+                  <div type="couplet">
+                     <head>Johan på Doffeln och Amanda på Trikåtan.</head>
+                     
+                     <sp>
+                        <speaker>Amanda:</speaker>
+                        
+                        <lg type="verse" n="1">
+                           <l>Hvar afton här jag väntar på min lilla hjärtevän,</l>
+                           <l>adehioliolej, på min lilla hjärtevän,</l>
+                           <l>och stundom är jag ängslig, att han kommer ej igen,</l>
+                           <l>adehioliohiolio, kommer ej igen.</l>
+                           <l>Men det är dock min tröst,</l>
+                           <l>att i hans trogna bröst,</l>
+                           <l>där brinner kärlekslågan vinter, sommar, vår och</l>
+                           <l>höst.</l>
+                        </lg>
+                        
+                        <lg type="verse" n="2">
+                           <l>:,: För adehioliolej,</l>
+                           <l>å adehioliolej,</l>
+                           <l>du älskar bara mej,</l>
+                           <l>ohioli, så säj! :,:</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                     <sp>
+                        <speaker>Johan:</speaker>
+                        
+                        <lg type="verse" n="3">
+                           <l>På Doffeln jag knogar hvarje evig veckans dag,</l>
+                           <l>adehioliolej, hvarje evig veckans dag,</l>
+                           <l>och där man måste sätta i med djädrans karlatag,</l>
+                           <l>adehioliohiolio, djädrans karlatag.</l>
+                           <l>Hur trött jag likväl är,</l>
+                           <l>hvar kväll min kosa bär</l>
+                           <l>till lilla min Amanda, som mitt hjärta håller kär.</l>
+                        </lg>
+                        
+                        <lg type="verse" n="4">
+                           <l>:,: För adehioliolej,</l>
+                           <l>å adehioliolej,</l>
+                           <l>jag älskar bara dej,</l>
+                           <l>ohioli, så säj! :,:</l>
+                        </lg>
+                        
+                     </sp>
+                     
+                  </div>
+                  
+               </div>
             </div>
-
+               
       </body>
   </text>
    
