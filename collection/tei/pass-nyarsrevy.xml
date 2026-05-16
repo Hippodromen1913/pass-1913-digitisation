@@ -763,6 +763,133 @@
                      </div>
                   </div>
                </div>
+         <!-- Uppslag 7 sida 1 -->
+         <div type="page" facs="#Sida13_14">
+            <pb n="12"/>
+            
+            <figure>
+               <graphic url="../img/uppslag7.gif"/>
+               <figDesc>Fotografi av Alma Adler som luftkapten på Hansa.</figDesc>
+            </figure>
+            
+            <list type="simple">
+               <item>Alfhild André som luftkapten på Hansa.</item>
+            </list>
+            
+            <pb n="13"/>
+            
+            <figure>
+               <graphic url="../img/uppslag7.gif"/>
+               <figDesc>Gruppfotografi föreställande Det flyende haremet.</figDesc>
+            </figure>
+            
+            <list type="simple">
+               <item>Det flyende haremet.</item>
+            </list>
+            
+         </div>
+         
+            <!-- Uppslag 8 sida 1 -->
+            <div type="page" facs="#Sida15_16">
+               <pb n="14"/>
+               
+               <div type="advertisement">
+                  <list type="simple">
+                     
+                     <item>Köp BLUSAR <lb/>
+                        hos <lb/>
+                        Blus-Specialisten <lb/>
+                        Adelgatan <lb/>
+                        Obs! Passform garanteras
+                     </item>
+                     
+                     <item>Gottfrid Jacobsons <lb/>
+                        Blomsterhandel <lb/>
+                        Baltzarsgatan 41 <lb/>
+                        Telefon 1618, 2768
+                     </item>
+                     
+                     <item>S. C. W. Söderbergs <lb/>
+                        FISK- &amp; VILDT- <lb/>
+                        HANDEL <lb/>
+                        Midt emot Statens järnvägsstation.
+                     </item>
+                     
+                  </list>
+               </div>
+            </div>
+            
+            <!-- Uppslag 8 sida 2 -->
+            <div type="page" facs="#Sida15_16">
+               <pb n="15"/>
+               
+               <div type="couplet">
+                  
+                  <sp>
+                     <speaker>Apelqvist:</speaker>
+                     <lg type="verse" n="4">
+                        <l>gladt geväret dock jag tager</l>
+                        <l>för herr Bergströms landtförsvar.</l>
+                     </lg>
+                  </sp>
+                  
+                  <sp>
+                     <speaker>Anderberg:</speaker>
+                     <lg type="verse" n="5">
+                        <l>Jag hör kanske till de fula,</l>
+                        <l>och mitt fel det är att hjula,</l>
+                        <l>men jag sliter dock min sula</l>
+                        <l>för herr Bergströms landtförsvar.</l>
+                     </lg>
+                  </sp>
+                  
+                  <sp>
+                     <speaker>Alla:</speaker>
+                     <lg type="verse" n="6">
+                        <l>Hem se'n alla fyra gå vi.</l>
+                        <l>Ärans höga tinnar nå vi</l>
+                        <l>och som segerherrar stå vi</l>
+                        <l>för herr Bergströms landtförsvar.</l>
+                     </lg>
+                  </sp>
+                  
+               </div>
+               
+               <div type="couplet">
+                  <head>Herr Rydén.</head>
+                  
+                  <lg type="verse" n="1">
+                     <l>Hvem är det, som jämt har sin tunga i sken?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                     <l>— som själfva Demosthenes uti Athén?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                     <l>Hvem är det som bland våra socialister</l>
+                     <l>står närmast i tur till att blifva minister,</l>
+                     <l>och om han fått lof, hade varit det re'n?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                  </lg>
+                  
+                  <lg type="verse" n="2">
+                     <l>Hvem sitter som pamp i försvarskommittén?</l>
+                     <l>Hvem känner som ingen den svenska armén?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                     <l>Ifall det ibland ordnas mobilisering,</l>
+                     <l>hvem granskar då styrkornas skick och placering?</l>
+                     <l>Högt öfver all sakkunnighet står dock en:</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                  </lg>
+                  
+                  <lg type="verse" n="3">
+                     <l>Hvem anser att all katekes är till men?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                     <l>— men själf har en hemmagjord själshygien?</l>
+                     <l><hi rend="indent">Herr Rydén.</hi></l>
+                  </lg>
+                  
+               </div>
+               
+            </div>
+
       </body>
   </text>
    
