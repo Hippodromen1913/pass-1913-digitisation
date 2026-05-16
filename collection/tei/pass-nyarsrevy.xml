@@ -663,7 +663,7 @@
                <!-- Uppslag 6 sida 1 -->
                <div type="page" facs="#Sida11_12">
                   <pb n="11"/>
-                  <div type="advertisment">
+                  <div type="advertisement">
                      <p>   Annonsera <lb/>genom <lb/>A.-B. S. Gumælii Annonsbyrå
                         <lb/>Stora Nygatan 64 <lb/>4:e huset fr. Teatern </p>
                   </div>
@@ -677,10 +677,92 @@
                      <p>Den verkar mång-<lb/>dubbelt bättre!!!<lb/> </p>
                      <p>KLICHÉER<lb/> <hi rend="italic">erhålls bäst och snabbast från</hi> <lb/>
                      KEMIGRAFISKA A:B. <lb/>I MALMÖ</p>
+                     </div>
+                  <!-- Uppslag 6 sida 2 -->
+                  <div type="page" facs="#Sida11_12">
+                     <pb n="11"/>
                      
-     
-            </div>
-         </div>
+                     <div type="couplet">
+                        <sp>
+                           <speaker>Elsa:</speaker>
+                           <lg type="verse" n="5">
+                              <l>Fröken jämt är trumpen</l>
+                              <l>och gul af kaffesumpen.</l>
+                              <l>Och redan skrället sport</l>
+                              <l>hvad jag och Kalle Bratt ha gjort,</l>
+                              <l>och jag fick ris i gumpen,</l>
+                              <l>— ja, visst är fröken trumpen.</l>
+                           </lg>
+                        </sp>
+                        
+                        <sp>
+                           <speaker>Kalle:</speaker>
+                           <lg type="verse" n="6">
+                              <l>Än svider det i baken</l>
+                              <l>af spö't och vinkelhaken.</l>
+                              <l>Ty han fått reda på,</l>
+                              <l>hur bra vi trifts ihop vi två.</l>
+                              <l>Det retade den kraken,</l>
+                              <l>än svider det i baken.</l>
+                           </lg>
+                        </sp>
+                        
+                        <sp>
+                           <speaker>Båda:</speaker>
+                           <lg type="verse" n="7">
+                              <l>Är det inte farligt:</l>
+                              <l>fast man tar det varligt</l>
+                              <l>och tror på ingen risk,</l>
+                              <l>skall kärlek lönas dock med pisk!</l>
+                              <l>Det är oförsvarligt,</l>
+                              <l>att kärlek anses farligt.</l>
+                           </lg>
+                        </sp>
+                     </div>
+                     
+                     <div type="couplet">
+                        <head>De mobiliserade.</head>
+                        
+                        <sp>
+                           <speaker>Alla:</speaker>
+                           <lg type="verse" n="1">
+                              <l>David oss mobiliserat,</l>
+                              <l>vi från hus och hem marscherat</l>
+                              <l>och en halfpluton formerat</l>
+                              <l>för herr Bergströms landtförsvar.</l>
+                           </lg>
+                        </sp>
+                        
+                        <sp>
+                           <speaker>Lundström:</speaker>
+                           <lg type="verse" n="2">
+                              <l>Jag är tjock och rund om magen</l>
+                              <l>och har lite fläsk i dragen,</l>
+                              <l>men har kvar de gamla tagen</l>
+                              <l>för herr Bergströms landtförsvar.</l>
+                           </lg>
+                        </sp>
+                        
+                        <sp>
+                           <speaker>Sjöberg:</speaker>
+                           <lg type="verse" n="3">
+                              <l>Jag har spatt i vänstra låret</l>
+                              <l>och har tappat hela håret.</l>
+                              <l>Men jag kämpar, om jag får'et,</l>
+                              <l>för herr Bergströms landtförsvar.</l>
+                           </lg>
+                        </sp>
+                        
+                        <sp>
+                           <speaker>Apelqvist:</speaker>
+                           <lg type="verse" n="4">
+                              <l>Jag är ganska tunn och mager,</l>
+                              <l>och fast knappast jag är fager,</l>
+                           </lg>
+                        </sp>
+                     </div>
+                  </div>
+               </div>
       </body>
   </text>
    
