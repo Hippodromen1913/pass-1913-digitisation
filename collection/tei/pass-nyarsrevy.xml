@@ -22,7 +22,36 @@
             <p>A part of a school project, not to be distributed</p>
          </publicationStmt>
          <sourceDesc>
-            <p>A small print booklet with selected revue songs from Hippodromens nyårsrevy 1913, available at the public library in Malmö</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Malmö</settlement>
+                  <repository>Malmö stadsbibliotek</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <p><material>Papper</material> med en häftad bindning. En stämpel på 
+                              omslaget "Malmö stadsbibliotek småtryck. Samt en anteckning med 
+                              bläckpenna "IK".(Vilket förmodlingen åsyftar SAB:s klassifikationssystem 
+                              och står för Konst, musik, teater, film, fotografi samt Historia.</p>
+                        </support>
+                        <extent>12 sidor
+                           <dimensions scope="all" type="leaf" unit="cm">
+                              <height unit="cm">20,2</height>
+                              <width unit="cm">13,4</width>
+                           </dimensions>
+                        </extent>
+                        <condition>
+                           <p>Pappret är gult, men vi vet inte om det är på grund av ålder eller 
+                              om det från början varit så. I gott skick, inga tydliga tecken på 
+                              slitage eller blekning.</p>
+                        </condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
    
          </sourceDesc>
          
@@ -36,20 +65,40 @@
            </p>
         </projectDesc>
         
+        
         <editorialDecl>
            <p>
               OCR transcription was carried out using Google Docs and manually corrected afterwards.
            </p>
+           <normalization>
+              <p>Texten har transkriberats som det återges i orginalkällan</p>
+           </normalization>
+           <correction>
+              <p>Ingen rättning eller modernisering av texten har genomförts</p>
+           </correction>
+           <hyphenation>
+              <p>Alla hyphenationer är återgivna exakt som i texten</p>
+           </hyphenation>
+           <punctuation>
+              <p>Skiljetecken är återgivna exakt som i texten</p>
+           </punctuation>
+           <segmentation>
+              <p>Rader har markerats med <gi>lb</gi> för att återge textens radbrytning.
+                 Sidor har markerats med <gi>pb</gi> med attribut <att>n</att> med åtföljande 
+                 sidnummer. Typ av innehåll har markerats med <gi>div</gi> med åtföljande 
+                 attribut <att>type</att> och efterföljande värde <att>advertisement</att> för 
+                 annonser eller <att>couplet</att> för kupletter. Kupletter har delats in med 
+                 <gi>lg</gi> med åtföljande attribut <att>type</att> med värde <att>verse</att>. 
+                 Indrag har markerats med <gi>hi</gi> med attributet <att>rend</att> med 
+                 värdet "indent".</p>
+           </segmentation>
         </editorialDecl>
-        
         <samplingDecl>
-           <p>
-              Original image files were scanned as high-resolution TIFF files in
+           <p>Original image files were scanned as high-resolution TIFF files in
               600 dpi RGB colour. The TIFF files function as preservation masters.
               GIF versions are used as access copies in the GitHub repository due
-              to file size limitations. Original TIFF files are stored separately.
-           </p>
-        </samplingDecl>
+              to file size limitations. Original TIFF files are stored separately.</p>
+            </samplingDecl>
         
      </encodingDesc>
      
@@ -225,108 +274,124 @@
          <p> 
            <stamp>Malmö Stadsbibliotek <lb/>
               Malmö samlingen </stamp></p>
-         <note>Småtryck
+            <p><add hand="librarian" place="bottom">Småtryck</add></p>
             
-         </note>
+         
             </div>
          
         <!-- Uppslag 1, sida 1-->
-         <div type="page" facs="#Uppslag1"> </div>
+         <div type="page" facs="#Uppslag1">
+         <pb n="1"/>
             <div type="advertisement">
-            <pb n="1"/>
-               <head> WESSEL &amp;VETT</head>
-               <p>Södergatan (midt emot Teatern)</p>
-               <lg>
-                  <l>Södra Sveriges största <lb/>MATT &amp; <lb/>LINOLIUMLAGER</l>
-                  <l> GARDINER </l>
-                    <l> MÖBELTYGER </l>
-                    <l> HVITA VAROR </l>
-                     <l> DRÄKTTYGER </l>
-                    <l> SÄNGAR </l>
-                    <l> SÄNGUTSTYRSEL KLÄDNINGSTYGER </l>
-                    <l> SIDEN </l>
-                    <l> SPETSAR </l>
-                    <l> MANSTRÖJOR </l>
-                    <l> KORSETTER LINNE </l>
-                     <l>BLUSAR. </l>
-                  </lg>
-               <p> FÖRSTKLASSIG SYATELIER<lb/>
-                  HERREKIPERING m. m. 
-               </p>
-               <!-- Uppslag 1 sida 2 innehåller bilder, kolla hur man gör detta bäst-->
-               <div type="page" facs="#Uppslag1"> </div>
-               <pb n="2"/>
                
+                  <head>WESSEL &amp; VETT</head>
+                  <p>Södergatan (midt emot Teatern)</p>
+                  <list type="simple">
+                     <item>Södra Sveriges största MATT &amp; LINOLIUMLAGER</item>
+                     <item>GARDINER</item>
+                     <item>MÖBELTYGER</item>
+                     <item>HVITA VAROR</item>
+                     <item>DRÄKTTYGER</item>
+                     <item>SÄNGAR</item>
+                     <item>SÄNGUTSTYRSEL KLÄDNINGSTYGER</item>
+                     <item>SIDEN</item>
+                     <item>SPETSAR</item>
+                     <item>MANSTRÖJOR</item>
+                     <item>KORSETTER LINNE</item>
+                     <item>BLUSAR.</item>
+                  </list>
+                  <p>FÖRSTKLASSIG SYATELIER <lb/> HERREKIPERING m. m.</p>
+            </div>
+         </div>
+               
+               <!-- Uppslag 1 sida 2 i-->
+         <div>
+                  <pb n="2"/>
+               <figure>
+                  <graphic url="../img/uppslag1.gif"/>
+                  <figDesc>Sida med tre ovalformade porträttfotografier.</figDesc>
+               </figure>
             
-</div>
+               <list type="simple">
+                  <item><q>SIC</q></item>
+                  <item>Direktör A. Salmson</item>
+                  <item>Musikdirektör G. Trobäck</item>
+               </list> 
+               <p><add hand="librarian" place="bottom">Lokalhist. Saml. Småtryck</add></p>
+         </div>
+            
+
          <!-- uppslag 2, sida 1 -->
-         <div type="page" facs="#Sida3_4"> </div>
-         <div type="advertisement">
-            <pb n="2"/>
-            <head>TORR WOLKES TORR</head>
-            <l>Paris 1900. Helsingborg 1903.  Trade W Mark  Helsingborg 1903. London 1901.</l>
-              <l> ÄKTA
-               <lb/>Caloric Punsch 
-                 <lb/>Gustav Wolke      Malmö</l>
-              <note type="unclear">
-                 <p> Oklar text…</p></note> 
+         
+         <div type="page" facs="#Sida3_4">
+            <pb n="3"/>
+            <div type="advertisement">
+               <head>TORR WOLKES TORR</head>
+               <p>Paris 1900. Helsingborg 1903. Trade W Mark Helsingborg 1903. London 1901.</p>
+               <p>ÄKTA <lb/> Caloric Punsch <lb/> Gustav Wolke – Malmö</p>
+               <p><unclear reason="illegible">skånska <gap reason="illegible"/> AKT BOL 2724</unclear></p>
+            
          </div>
          <div type="advertisement">
             <head>Photographie Rembrandt </head>
-            <l>S. Förstadsgatan 25. Rikstel. 1188.</l>
-            <l>Eleganta fotografier o. förstoringar
-               <lb/>i alla prislägen</l>
+            <p>S. Förstadsgatan 25. Rikstel. 1188.</p>
+            <p>Eleganta fotografier o. förstoringar <lb/>i alla prislägen</p>
          </div>
+         
          <div type="advertisement">
             <head>Malmö Klädesmagasin</head>
-            <l>(Förest. OTTO MODÉER)</l>
-            <lg><l>Svenska och Engelska 
-               <lb/>KLÄDESVAROR
-                  <lb/>13, Södergatan 13.</l>
-            </lg>
+            <p>(Förest. OTTO MODÉER)</p>
+            <p>Svenska och Engelska <lb/>KLÄDESVAROR <lb/>13, Södergatan 13.</p>
+         </div>
          </div>
          <!-- uppslag 2, sida 2 -->
          
-            <div>
-               <div type="couplet">
-                  <pb n="3"/>
+      <pb n="4"/>
+       <div type="couplet">
+                  
                   <head>Arbetarnes kör.</head>
                   
-                     
-                      <p>Nu har jag arbetat och knogat med dej, 
-                     <lb/>lilla Andersson, liolej,
-                     <lb/>lilla Johansson, liolej,
-                     <lb/>Jag bjuder på Mattssons en bärsa på dej 
-                     <lb/>lilla Johansson, lilla Andersson,
-                     <lb/>liolej, lioliolej!
-                     <lb/>Och en nubbe
-                     <lb/>för hvarenda stubbe!
-                    <lb/> Kom mä mej,
-                    <lb/> blott mä dej
-                     <lb/>tar jag nubbe, 
-                     <lb/>Och en nubbe
-                    <lb/> för hvarenda stubbe!
-                    <lb/> kom mä mej,
-                    <lb/> jag vill nubba mä dej, 
-                    <lb/> lioliolej ! </p>
-                     
-                     <p>Jag delar båd' kofva och bärsa mä dej, 
-                     <lb/>Om bylingen bråkar, så slås jag för dej. </p>
-                     
-                    <p> Om sedan jag kommer i finkan mä dej, 
-                     <lb/>jag ligger i syskonsäng ljufligt mä dej. </p>
-                     
-                     <p>På måndag jag firar frimåndag mä dej, 
-                    <lb/> Och blir det nå'n kärlek, jag delar mä dej. </p>
-                     
-                    <p> Och sedan jag strejkar tillsammans mä dej, 
-                    <lb/> och delar mitt strejkunder-stöd blott mä dej.
-                     
-                  </p>
+                  <lg type="verse" n="1">
+                     <l>Nu har jag arbetat och knogat med dej,</l>
+                     <l>lilla Andersson, liolej,</l>
+                     <l>lilla Johansson, liolej,</l>
+                     <l>Jag bjuder på Mattssons en bärsa på dej</l>
+                     <l>lilla Johansson, lilla Andersson,</l>
+                     <l>liolej, lioliolej!</l>
+                     <l>Och en nubbe</l>
+                     <l>för hvarenda stubbe!</l>
+                     <l>Kom mä mej,</l>
+                     <l>blott mä dej</l>
+                     <l>tar jag nubbe,</l>
+                     <l>Och en nubbe</l>
+                     <l>för hvarenda stubbe!</l>
+                     <l>kom mä mej,</l>
+                     <l>jag vill nubba mä dej,</l>
+                     <l>lioliolej!</l>
+                  </lg>
+                  <lg type="verse" n="2">
+                     <l>Jag delar båd' kofva och bärsa mä dej,</l>
+                     <l>Om bylingen bråkar, så slås jag för dej.</l>
+                  </lg>
+                  <lg type="verse" n="3">
+                     <l>Om sedan jag kommer i finkan mä dej,</l>
+                     <l>jag ligger i syskonsäng ljufligt mä dej.</l>
+                  </lg>
+                  <lg type="verse" n="4">
+                     <l>På måndag jag firar frimåndag mä dej,</l>
+                     <l>Och blir det nå'n kärlek, jag delar mä dej.</l>
+                  </lg>
+                  <lg type="verse" n="5">
+                     <l>Och sedan jag strejkar tillsammans mä dej,</l>
+                     <l>och delar mitt strejkunderstöd blott mä dej.</l>
+                  </lg>
                   
                </div>
+                  
+               
                
                <!-- uppslag 3, sida 1 -->
+<<<<<<< HEAD
                <div>
                   <div type="couplet">
                      <pb n="4"/>
@@ -374,63 +439,243 @@
          
          <!-- uppslag 3, sida 2 -->
          
-         <div>
+         
+         <div type="page" facs="#Sida5_6">
+            <pb n="5"/>
             <div type="couplet">
-               <pb n="5"/>
-               <head>Kvinnan som offentlig person.</head>
-               <byline>
-                  <name role="performer">Fina Gustafsson</name>
-               </byline>
+               <head>Vik åt vänster! <lb/> (DRag &amp; Blank)</head>
                
-               <lg>
-                  <l>Om kvinnan är till nytta som offentlig person,</l>
-                  <l>hur tusan kan man fråga i så oförskämd ton!</l>
-                  <l>Man har utaf henne</l>
-                  <l>mer gagn än af tvenne</l>
-                  <l>de yppersta karlar uti vår politik.</l>
+               <lg type="verse" n="1">
+                  <l>Man aldrig är nöjd med hvad fordomdags var,</l>
+                  <l>hvar dag måste ständigt bli ny.</l>
+                  <l>Det gamla, man ärft ifrån farfar och far,</l>
+                  <l>är man tvungen att hata och sky.</l>
+                  <l>Och den är en uråldrig reaktionär,</l>
+                  <l>som ser det förgångnas förtjänster.</l>
+                  <l>Nej, lösen och lystring för dagen nu är</l>
+                  <l>beständigt: Vik bara åt vänster!</l>
                </lg>
-               
-               <lg>
-                  <l>Det är en skandal ju, att vi lysts uti bann,</l>
-                  <l>att kvinnan inte ännu kan få blifva riksdagsman.</l>
-                  <l>Tänk bara på Kata,</l>
-                  <l>hvad hon skulle prata.</l>
-                  <l>och skönt dekorera inhemsk politik.</l>
+               <lg type="verse" n="2">
+                  <l>Ifall på en gata i Malmö man går,</l>
+                  <l>är vandringen alls inte lätt.</l>
+                  <l>Ty rakt ingen människa nu längre förstår</l>
+                  <l>hvad på trottoaren är rätt.</l>
+                  <l>Herr Hårleman med sina gathörnsplakat</l>
+                  <l>har inlagt de största förtjänster,</l>
+                  <l>och på Södergatan konstapeln kavat</l>
+                  <l>befaller: Vik bara åt vänster!</l>
                </lg>
-               
-               <lg>
-                  <l>Och här uti Malmö man nogsamt förstår</l>
-                  <l>fru Stenbergs bravader i vår stadsfullmäktigkår.</l>
-                  <l>Ty kvinnfolkets smärta</l>
-                  <l>förstod hon behjärta</l>
-                  <l>med praktisk och god kommunalpolitik.</l>
+               <lg type="verse" n="3">
+                  <l>Herr Staaff och herr David regera alltjämt</l>
+                  <l>med myndig och god precision.</l>
+                  <l>Om också herr Jacob blir utsatt för skämt,</l>
+                  <l>generar det ej hans person.</l>
+                  <l>Men Branting är skiftesvis ilsken och blyg,</l>
+                  <l>hur lönar väl Staaffen hans tjänster?</l>
+                  <l>Han svär i mustaschen och mumlar i smyg:</l>
+                  <l>Ack, Kalle, vik bara åt vänster!</l>
                </lg>
-               
-               <lg>
-                  <l>Nu stå hennes hus rundt omkring här i sta'n,</l>
-                  <l>så fina och så söta, som de gjorts af marzipan,</l>
-                  <l>och damerna trifvas,</l>
-                  <l>och hjärtat kan lifvas</l>
-                  <l>vid tanken uppå Stenbergskans huspolitik.</l>
+               <lg type="verse" n="4">
+                  <l>Vid Skolgatan ligger ett mindre palats,</l>
+                  <l>gemenligen nämndt Folkets hus,</l>
+                  <l>och målare Ehnrooth mång väldig strapats</l>
+                  <l>där kämpar för frihet och ljus,</l>
+                  <l>Han aktar ej Kabbarp det ringaste grand,</l>
+                  <l>ej X:ets och Löwegrens tjänster,</l>
+                  <l>men vrålar beständigt med skägget i brand</l>
+                  <l>Folkviljans: Vik alltid åt vänster!</l>
                </lg>
-               
-               <lg>
-                  <l>Men fastän hvarje kvinna är en rar och dyrbar skatt,</l>
-                  <l>hon törs ej vandra ensam uppå gatorna en natt.</l>
-                  <l>Ej länge det tölar</l>
-                  <l>för'n knoddar och knölar</l>
-                  <l>med henne önska drifva sin kärlekspolitik.</l>
-               </lg>
-               
-               <lg>
-                  <l>Och ganska ofta ä' de lika busiga som nyss,</l>
-                  <l>fastän de ville kyssas, fick jag ej den minsta kyss.</l>
-                  <l>Jämt får jag försmäkta,</l>
-                  <l>Ni måste dem häkta</l>
-                  <l>Och straffa dem med Hårlemans värsta politik.</l>
-               </lg>
-               
+>>>>>>> cc319055517c04832b45df827ebc5e8b1140e39a
             </div>
+         </div>
+               
+               <!-- Uppslag 3 sida 2 kvinnan som offentlig person-->
+               
+         <!-- Uppslag 4 sida 2 -->
+         <div type="page" facs="#Sida7_8">
+            <pb n="8"/>
+            <div type="couplet" part="I">
+               <head>Framifrån och bakifrån.</head>
+               <p>(Lejonhjärta och Cæsar)</p>
+               <lg type="verse" n="1">
+                  <l>Det är mycket, som kan te sig ganska godt</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men som nog är både ynkeligt och smått</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Om fasaden är i smaken,</l>
+                  <l>kanske dock du afskyr baken,</l>
+                  <l>och rätt ofta kan man vädra en komplott</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="2">
+                  <l>Faktor Lannto var ju ganska obstinat</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>och smet in uti vår höga rikssenat</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Snart han vända fick sin kappa</l>
+                  <l>och blef tvungen till att schappa,</l>
+                  <l>för han hade spelat lanter för kavat</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="3">
+                  <l>Och herr Lindhagens uppsyn är nog blid</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men han älskar dock att kasta sig i strid</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>och med våldsamt krigarhjärta</l>
+                  <l>han sin fiende kan svärta</l>
+                  <l>så att bläckhornet går i kras därvid</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="4">
+                  <l>Ej Carl Gustaf fick i år sin Stockholmsstod</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>tackadt vare herr professor Lundbergs mod</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Alla skisser han kasserar</l>
+                  <l>och belåten triumferar</l>
+                  <l>när han visar en, som själf han finner god</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+            </div>
+         </div>
+         
+         <!-- Uppslag 5 sida 1 -->
+         <div type="page" facs="#Sida9_10">
+            <pb n="9"/>
+            <div type="couplet" part="F">
+               <lg type="verse" n="5">
+                  <l>Man i Limhamn ville inkorporation</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men hade kvar ett litet fint belysningsdon</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Jag vill inte alls ha sagt' et,</l>
+                  <l>men Ambrosius med kontraktet</l>
+                  <l>det var allt en liten nätt spekulation</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+               <lg type="verse" n="6">
+                  <l>Det är ganska ljuft att ta ett bad ibland</l>
+                  <l><hi rend="indent">— framifrån —</hi></l>
+                  <l>men Lachmann tog vårt folkbad helt omhand</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+                  <l>Och när nu vi gå att bada, bli båd' vi och Lachmann glada</l>
+                  <l>ty herr Lachmann er en flot Forretningsmand</l>
+                  <l><hi rend="indent">— bakifrån —</hi></l>
+               </lg>
+            </div>
+            
+            <div type="couplet">
+               <head>Fredens Gudinna.</head>
+               <lg type="verse" n="1">
+                  <l>Här kommer nu Fredens gudinna,</l>
+                  <l>hvitskrudad med fläktande palm.</l>
+                  <l>Där jag sväfvar fram, strax försvinna</l>
+                  <l>all strid och allt bråk och allt kvalm.</l>
+               </lg>
+               <lg type="verse" n="2">
+                  <l>Nu är himmelens rike helt nära,</l>
+                  <l>vår jord blir en änglarnes zon,</l>
+                  <l>och aldrig oss mer skall förfära</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+               <lg type="verse" n="3">
+                  <l>Snart randas den signade dagen,</l>
+                  <l>som siarn förkunnat oss har.</l>
+                  <l>Af oskuldens änglar är dragen</l>
+                  <l>min snöhvitt skinande char.</l>
+               </lg>
+               <lg type="verse" n="4">
+                  <l>All jordens folk blifva vänner,</l>
+                  <l>all sång går i fridshymnens ton,</l>
+                  <l>och snart ingen mänska mer känner</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+               <pb n="10"/>
+               <lg type="verse" n="5">
+                  <l>Se, änglarnes fladdrande vingar,</l>
+                  <l>de fläkta sin svalkande frid,</l>
+                  <l>och sången sig glädjefullt svingar</l>
+                  <l>med varsel om sällhetens tid.</l>
+               </lg>
+               <lg type="verse" n="6">
+                  <l>Snart friden vår värld skall regera</l>
+                  <l>och kärleken, hoppet och tron,</l>
+                  <l>och aldrig vi skåda se'n mera</l>
+                  <l>revolver, gevär och kanon.</l>
+               </lg>
+            </div>
+            
+            <div type="couplet">
+               <head>Kärlek och pisk.</head>
+               <p>(Kalle och Elsa)</p>
+               <sp>
+                  <speaker>Båda:</speaker>
+                  <lg type="verse" n="1">
+                     <l>Hand i hand vi vandra</l>
+                     <l>i parken med hvarandra</l>
+                     <l>så godt som hvarje kväll,</l>
+                     <l>fastän det renderar smäll.</l>
+                     <l>Nog är det grymt att klandra</l>
+                     <l>att två tillsammans vandra.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Kalle:</speaker>
+                  <lg type="verse" n="2">
+                     <l>Jag går i nedre ringen.</l>
+                     <l>Där finns det säkert ingen</l>
+                     <l>så glad som Kalle Bratt,</l>
+                     <l>och sinnet blef än mera gladt,</l>
+                     <l>och hoppet lyfte vingen,</l>
+                     <l>när Elsa gaf mig ringen.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Elsa:</speaker>
+                  <lg type="verse" n="3">
+                     <l>Jag har en faslig fröken,</l>
+                     <l>och lifvet var en öken,</l>
+                     <l>om inte man var kär.</l>
+                     <l>Men när min Kalle är mig när,</l>
+                     <l>i kyssarne och röken</l>
+                     <l>jag struntar blankt i fröken.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Kalle:</speaker>
+                  <lg type="verse" n="4">
+                     <l>Jag har en ryslig rektor,</l>
+                     <l>mer led än skabb och skäktor,</l>
+                     <l>en fruktansvärd spion.</l>
+                     <l>Han lurar jämt på min person.</l>
+                     <l>Men Amor är protector</l>
+                     <l>för mig emot min rektor.</l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+               <!-- Uppslag 6 sida 1 -->
+               <div type="page" facs="#Sida11_12">
+                  <pb n="11"/>
+                  <div type="advertisment">
+                     <p>   Annonsera <lb/>genom <lb/>A.-B. S. Gumælii Annonsbyrå
+                        <lb/>Stora Nygatan 64 <lb/>4:e huset fr. Teatern </p>
+                  </div>
+                  <div type="advertisment">
+                     <figure>
+                        <graphic url="../img/uppslag6.gif"/>
+                     <figDesc>Texten finns inuti en formad ruta med en illustration av en kvinna som håller i
+                        en palett i höger hand och en pensel i vänster hand.</figDesc>
+                     </figure>
+                     <p>ILLUSTRERA <lb/> ANNONSEN<lb/></p>
+                     <p>Den verkar mång-<lb/>dubbelt bättre!!!<lb/> </p>
+                     <p>KLICHÉER<lb/> <hi rend="italic">erhålls bäst och snabbast från</hi> <lb/>
+                     KEMIGRAFISKA A:B. <lb/>I MALMÖ</p>
+                     
+     
+            </div>
+         </div>
       </body>
   </text>
    
